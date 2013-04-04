@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
+	<parent>
+		<groupId>loxia2</groupId>
+		<artifactId>parent</artifactId>
+		<version>2.5</version>
+	</parent>
+	
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>loxia2-web</artifactId>
+	<packaging>jar</packaging>
+	<version>${loxia2.version}</version>
+	<name>Loxia2 Platform Web Module</name>
+	
+	<dependencies>		
+		<dependency>
+			<groupId>loxia2</groupId>
+			<artifactId>loxia2-security</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>loxia2</groupId>
+			<artifactId>loxia2-support</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-spring-plugin</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+	        <groupId>javax.servlet</groupId>
+	        <artifactId>servlet-api</artifactId>
+	        <scope>provided</scope>
+	        <version>2.4</version>
+	    </dependency>
+	    <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.0</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>5.9</version>	
+			<classifier>jdk15</classifier>
+			<scope>test</scope>			
+		</dependency>
+		
+		<dependency>
+	    	<groupId>org.apache.poi</groupId>
+	    	<artifactId>poi</artifactId>
+	    	<version>3.6</version>
+	    	<scope>test</scope>
+    	</dependency>    
+    	<dependency>
+	    	<groupId>org.apache.poi</groupId>
+	    	<artifactId>poi-ooxml</artifactId>
+	    	<version>3.6</version>
+	    	<scope>test</scope>
+    	</dependency>
+	</dependencies>
+</project>
