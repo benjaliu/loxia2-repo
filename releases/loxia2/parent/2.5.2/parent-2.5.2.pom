@@ -50,10 +50,10 @@
    </distributionManagement>
     
    <repositories>
-        <!-- <repository>
+        <repository>
             <id>loxia2</id>
-            <url>http://loxia2.googlecode.com/svn/repository</url>
-        </repository> -->
+            <url>https://github.com/benjaliu/loxia2-repo/raw/master/releases</url>
+        </repository>
         <repository> 
 			<id>JBossRepo</id> 
 			<name>Jboss</name> 

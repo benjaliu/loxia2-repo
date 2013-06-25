@@ -3,13 +3,13 @@
   <groupId>loxia2</groupId>
   <artifactId>parent</artifactId>
   <versioning>
-    <release>2.0</release>
+    <release>2.5.2</release>
     <versions>
       <version>2.5.2</version>
       <version>2.5.1</version>
       <version>2.5</version>
       <version>2.0</version>
     </versions>
-    <lastUpdated>20130404111147</lastUpdated>
+    <lastUpdated>20130625063228</lastUpdated>
   </versioning>
 </metadata>
